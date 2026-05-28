@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "Student API is running successfully!";
+        return "Backend is running successfully!";
     }
 }
